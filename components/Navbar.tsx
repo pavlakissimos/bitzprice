@@ -8,6 +8,9 @@ const NavBar: React.FC = () => {
       aria-label="main navigation"
     >
       <div className="navbar-brand">
+        <Link href="/">
+          <a className="navbar-item">BitzPrice</a>
+        </Link>
         <a
           role="button"
           className="navbar-burger burger"
@@ -22,7 +25,7 @@ const NavBar: React.FC = () => {
       </div>
 
       <div className="navbar-menu">
-        <div className="navbar-start">
+        <div className="navbar-end">
           <div className="navbar-item">
             <Link href="/">
               <a>Home</a>

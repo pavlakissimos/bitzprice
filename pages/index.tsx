@@ -11,7 +11,8 @@ interface IIndex {
 const Index: NextPage<IIndex> = ({ bpi }) => {
   return (
     <Layout>
-      <h1>Welcome to BitzPrice!</h1>
+      <h1 className="title">Welcome to BitzPrice!</h1>
+      <p>Check current Bitcoin rate</p>
       <Prices bpi={bpi} />
     </Layout>
   );
